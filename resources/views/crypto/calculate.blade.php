@@ -18,9 +18,9 @@
         <div class="row slideBottom">
             <div class="col-12 col-md-8 offset-md-2 mt-3">
                 <p class="alert alert-primary text-center">
-                    <u>Rules</u>
+                    <u>Rules/Notes:</u>
                     <br>
-                    &bull; This analysis can present only data from the last 12 months.
+                    &bull; This analysis presents data collected in the last 12 months.
                     <br>
                     <br>
                     <u>Available Currencies</u>

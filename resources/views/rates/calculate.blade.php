@@ -18,7 +18,7 @@
         <div class="row slideBottom">
             <div class="col-12 col-md-8 offset-md-2 mt-3">
                 <p class="alert alert-primary text-center">
-                    <u>Rules</u>
+                    <u>Rules/Notes</u>
                     <br>
                     &bull; 2000 &le; Start Year &lt; End Year &lt; {{ now()->year }}
                     <br>

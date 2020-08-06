@@ -13,12 +13,12 @@
             <ul class="navbar-nav ml-auto mr-5">
                 <li class="nav-item">
                     <a class="nav-link mr-2 font-weight-light lead" href="{{ route('rates.calculate') }}">
-                        <i class="fas fa-coins"></i> Rates
+                        <i class="fas fa-coins text-info"></i> Rates
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link mr-2 font-weight-light lead" href="{{ route('crypto.calculate') }}">
-                        <i class="fab fa-btc"></i> Markets
+                        <i class="fas fa-wallet text-info"></i> Markets
                     </a>
                 </li>
             </ul>
