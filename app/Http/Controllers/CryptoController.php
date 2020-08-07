@@ -77,7 +77,7 @@ class CryptoController extends Controller
         }
 
         $lineChartRange = new CurrencyChart;
-        $lineChartRange->title($param2.' Price Evolution '.'(on '.$param1.' market)', 26, '#000', true, 'Patua One');
+        $lineChartRange->title($param2.' Price Evol. '.'(on '.$param1.' market)', 26, '#000', true, 'Patua One');
 
         for ($index = 0; $index <= 11; $index++) {
             $lineChartRangeLabels[$index] = Carbon::parse($dates[$index])->format('M Y');
@@ -137,7 +137,7 @@ class CryptoController extends Controller
         }
 
         $barChartVolume = new CurrencyChart;
-        $barChartVolume->title('Transaction Volume of '.$param2.' (on USA market)', 28, '#000', true, 'Patua One');
+        $barChartVolume->title('Transaction Vol. of '.$param2.' (on USA market)', 28, '#000', true, 'Patua One');
         $barChartVolume->labels($barChartVolumeLabels);
         
         $averageParam = 0;

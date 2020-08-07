@@ -23,17 +23,7 @@ body {
     font-style: italic !important;
 }
 
-.btn-link {
-    color: #17A2B8;
-}
-
-.btn-link:hover,
-.btn-link:focus {
-    color: black;
-    text-decoration: none;
-}
-
-@-webkit-keyframes slide {
+@keyframes slide {
     from { background-position: 0 0; }
     to { background-position: -400px 0; }
 }
@@ -42,9 +32,5 @@ body {
     background: gray url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
     text-align: center;
     box-sizing: border-box;
-    -webkit-animation: slide 20s linear infinite;
-  }
-  
-.bg-animated h1 {
-    font-family: sans-serif;
+    animation: slide 20s linear infinite;
 }

@@ -64,13 +64,6 @@
             </div>
         </div>
         <div class="row slideBottom">
-            <div class="col-md-8 my-2">
-                <div class="card rounded bg-light border-dark">
-                    <div class="card-body py-3 px-3">
-                        {!! $lineChartInterval->container() !!}
-                    </div>
-                </div>
-            </div>
             <div class="jumbotron m-3 m-md-auto col-md-4 my-3 border">
                 <h5>'The Line Chart:'</h5>
                 <p class="lead">This is the curve chart that displays information as a series of data points 
@@ -82,6 +75,13 @@
                     <br>
                     {{$param3}} - {{$averageParam3}}
                 </h4>
+            </div>
+            <div class="col-md-8 my-2">
+                <div class="card rounded bg-light border-dark">
+                    <div class="card-body py-3 px-3">
+                        {!! $lineChartInterval->container() !!}
+                    </div>
+                </div>
             </div>
         </div>
 @endsection
